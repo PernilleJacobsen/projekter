@@ -1,0 +1,13 @@
+For checking tha api - run the bin file and use either postman or browser
+
+myJokeRunner is for test purpose
+
+Test:
+testJokes - facade test
+testJokeApi - test of the rest api - doesn¨t work though
+
+Angular part is not done
+
+Edit joke does not work
+
+
