@@ -1,5 +1,7 @@
 # projekter
 Period 3
+Code in Mean1, Mongoose 1 and 2, RedisSessionStore
+
 1 - Explain, generally, what is meant by a NoSQL database. 
 
 Cannot be defined according to Fowler - but characteristica is:
