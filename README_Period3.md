@@ -1,6 +1,6 @@
 # projekter
 Period 3
-Code in Mean1, Mongoose 1 and 2, RedisSessionStore
+Code in Mean1, Mongoose 1 and 2, RedisSessionStore....Mongoose 1 and 2 are not on Github at the moment - something went wrong....
 
 1 - Explain, generally, what is meant by a NoSQL database. 
 
