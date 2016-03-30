@@ -38,11 +38,12 @@ Compromise consistency in favor of availability (CAP theorem).
 
 3 - Explain how databases like MongoDB and redis would be classified in the NoSQL world 
 
-MongDB er document oriented and Aggregate oriented database
+MongoDB er document oriented and Aggregate oriented database. data are stored in documents. Each document can but don´t have to contain the same fields. There are no types in the document
 
-Redis is a key value store and a in memory data structure server
+Redis is a key value store and a in memory data structure server. Kind of like a hash-table....data are stored with a key and a value in pairs
 
 4 - Explain reasons to add a layer like Mongoose, on top on of a schema-less database like MongoDB 
+
 Mongoose adds an object modeling packaage to Node.js like ORM(object relational mapping) for relational databases
 CRUD operationer gets easier to handle
 
