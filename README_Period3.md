@@ -2,7 +2,7 @@
 Period 3
 Code in Mean1, Mongoose 1 and 2, RedisSessionStore....Mongoose 1 and 2 are not on Github at the moment - something went wrong....
 
-1 - Explain, generally, what is meant by a NoSQL database. 
+1 - EXPLAIN, generally, what is meant by a NoSQL database. 
 
 Cannot be defined according to Fowler - but characteristica is:
 
@@ -36,7 +36,7 @@ if data have relations to other documents in the database it is more secure to u
 
 Compromise consistency in favor of availability (CAP theorem).
 
-3 - Explain how databases like MongoDB and redis would be classified in the NoSQL world 
+3 - EXPLAIN how databases like MongoDB and redis would be classified in the NoSQL world 
 
 MongoDB er document oriented and Aggregate oriented database. data are stored in documents. Each document can but don´t have to contain the same fields. There are no types in the document
 
@@ -120,14 +120,16 @@ One of the most apparent use cases for Redis is using it as a Session Store. The
 
 While maintaining a cache isn't typically mission critical with regards to consistency, most users wouldn't exactly enjoy if all their cart sessions went away
 
-9 - Explain, using a relevant example, how redis (or a similar) can increase scalability (drastic) for a server using server side sessions 
+9 - EXPLAIN, using a relevant example, how redis (or a similar) can increase scalability (drastic) for a server using server side sessions 
+
+Du sepererer håndteringen af session på en særskildt server der bruger Redis som storage.
 
 When your customer or user logs in, they authenticate and receive a token. This token then allows them to interact with any server in your web tier - the token is sent each time. There is no need for a "master" server and "slave" servers, because each server is the same. This allows you to scale horizontally very easily. 
 
 The session data is then stored in a fast database like Redis.
 
 
-10 - Explain, using a relevant example, a full MEAN application including relevant test cases to test the REST-API (not on the production database) 
+10 - EXPLAIN, using a relevant example, a full MEAN application including relevant test cases to test the REST-API (not on the production database) 
 
 Mean1 currently without angular
 
