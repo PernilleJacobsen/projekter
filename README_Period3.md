@@ -54,14 +54,14 @@ Look at Mean1 - jokesFacade for all examples:
 
 function _findJoke(id,callback){
     var db = connect.get();
-    db.collection("jokes").findOne({"_id": id},(function(err,data){
-        if(err){
-            callback(err);
-        }else{
-            callback(null,data);
+        db.collection("jokes").findOne({"_id": id},(function(err,data){
+                if(err){
+                callback(err);
+                }else{
+                callback(null,data);
+            }
+        }));
         }
-    }));
-}
 
 6 - Demonstrate, using a REST-API, how to perform all CRUD operations on a MongoDB 
 
